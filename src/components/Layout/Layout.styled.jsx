@@ -3,9 +3,13 @@ import styled from 'styled-components';
 
 import { ReactComponent as Logo } from 'icons/MainLogo.svg';
 
+export const MainContainer = styled.div`
+  display: flex;
+`;
+
 export const Header = styled.header`
   width: 84px;
-  height: 100vh;
+  height: calc(100vh - 14px);
 
   padding-top: 14px;
 
@@ -19,7 +23,6 @@ export const MainLogo = styled(Logo)`
 export const Navigation = styled.nav`
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 `;
 
@@ -48,6 +51,7 @@ export const MenuLink = styled(NavLink)`
   width: 48px;
   height: 48px;
 
+  color: #7d869e;
   background-color: #191c23;
-  border-radius: 50%;
+  border-radius: ${({ theme }) => theme.borderRadius.round};
 `;

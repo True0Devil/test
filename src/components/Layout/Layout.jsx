@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import {
   Header,
+  MainContainer,
   MainLogo,
   MenuItem,
   MenuLink,
@@ -17,7 +18,7 @@ import { ReactComponent as SettingsLogo } from 'icons/settings.svg';
 
 const Layout = () => {
   return (
-    <>
+    <MainContainer>
       <Header>
         <Navigation>
           <Link to="">
@@ -64,10 +65,10 @@ const Layout = () => {
         </Navigation>
       </Header>
 
-      <Suspense>
+      <Suspense fallback={null}>
         <Outlet />
       </Suspense>
-    </>
+    </MainContainer>
   );
 };
 
