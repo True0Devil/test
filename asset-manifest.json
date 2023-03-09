@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.7acaea2f.css",
-    "main.js": "/test/static/js/main.07d3183d.js",
+    "main.css": "/test/static/css/main.be959412.css",
+    "main.js": "/test/static/js/main.8d25f3cf.js",
+    "static/media/Metropolis-Regular.ttf": "/test/static/media/Metropolis-Regular.3e96c38bc01555998420.ttf",
+    "static/media/Metropolis-Medium.ttf": "/test/static/media/Metropolis-Medium.2fa651ef7a64b5ebc31b.ttf",
+    "static/media/setting.svg": "/test/static/media/setting.19da600cb7de6478efca4829331b6c06.svg",
+    "static/media/share.svg": "/test/static/media/share.8c8242bc43b6995e5959c1c36268a767.svg",
+    "static/media/wear-tear.svg": "/test/static/media/wear-tear.824031b0d8799491cc4b9a140237a2af.svg",
+    "static/media/user2.svg": "/test/static/media/user2.5658dfef9811c58836bd69656091ddf8.svg",
+    "static/media/MainLogo.svg": "/test/static/media/MainLogo.aea577abe55bf90675b94bb89fc06e3a.svg",
+    "static/media/keyhole.svg": "/test/static/media/keyhole.fe3d4a8b940a5f9675305613e6374042.svg",
+    "static/media/product.svg": "/test/static/media/product.a7726da492f7fa904c1a7bf4595e0ce4.svg",
+    "static/media/games.svg": "/test/static/media/games.8324b9c800ad729511b679c316f0590a.svg",
+    "static/media/cards.svg": "/test/static/media/cards.31714951889253133397700fdd448505.svg",
     "index.html": "/test/index.html",
-    "main.7acaea2f.css.map": "/test/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/test/static/js/main.07d3183d.js.map"
+    "static/media/settings.svg": "/test/static/media/settings.657d24dcc43ebb9fb4c973cd7e231bb0.svg",
+    "static/media/dashboard.svg": "/test/static/media/dashboard.e8305fd5c5160a5d56acf2c163a1afae.svg",
+    "static/media/UserProfileIcon.svg": "/test/static/media/UserProfileIcon.707dd8f4bdb5b559808f45a845d692f0.svg",
+    "main.be959412.css.map": "/test/static/css/main.be959412.css.map",
+    "main.8d25f3cf.js.map": "/test/static/js/main.8d25f3cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.be959412.css",
+    "static/js/main.8d25f3cf.js"
   ]
 }
