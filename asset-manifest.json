@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.be959412.css",
-    "main.js": "/test/static/js/main.8d25f3cf.js",
+    "main.css": "/test/static/css/main.cec156cf.css",
+    "main.js": "/test/static/js/main.8b0c5d70.js",
+    "static/media/travoltameme.gif": "/test/static/media/travoltameme.59b46f4510af6cc07976.gif",
     "static/media/Metropolis-Regular.ttf": "/test/static/media/Metropolis-Regular.3e96c38bc01555998420.ttf",
     "static/media/Metropolis-Medium.ttf": "/test/static/media/Metropolis-Medium.2fa651ef7a64b5ebc31b.ttf",
-    "static/media/setting.svg": "/test/static/media/setting.19da600cb7de6478efca4829331b6c06.svg",
+    "static/media/setting.svg": "/test/static/media/setting.b6c45cf0adf9273b716e1ac90c3bb8c7.svg",
     "static/media/share.svg": "/test/static/media/share.8c8242bc43b6995e5959c1c36268a767.svg",
-    "static/media/wear-tear.svg": "/test/static/media/wear-tear.824031b0d8799491cc4b9a140237a2af.svg",
+    "static/media/wear-tear.svg": "/test/static/media/wear-tear.ee01a3b3b68d38500d36c0224afe7ad4.svg",
     "static/media/user2.svg": "/test/static/media/user2.5658dfef9811c58836bd69656091ddf8.svg",
     "static/media/MainLogo.svg": "/test/static/media/MainLogo.aea577abe55bf90675b94bb89fc06e3a.svg",
+    "static/media/checkbox_checked.svg": "/test/static/media/checkbox_checked.676b27836fdfc2cd32e4c04eaaaceb74.svg",
+    "static/media/ckeckbox_unchecked.svg": "/test/static/media/ckeckbox_unchecked.9ec89801acc862f18c043f1e262ed7f1.svg",
     "static/media/keyhole.svg": "/test/static/media/keyhole.fe3d4a8b940a5f9675305613e6374042.svg",
-    "static/media/product.svg": "/test/static/media/product.a7726da492f7fa904c1a7bf4595e0ce4.svg",
+    "static/media/product.svg": "/test/static/media/product.44c6cb8bf1589a215fe9385b049f793d.svg",
     "static/media/games.svg": "/test/static/media/games.8324b9c800ad729511b679c316f0590a.svg",
-    "static/media/cards.svg": "/test/static/media/cards.31714951889253133397700fdd448505.svg",
+    "static/media/cards.svg": "/test/static/media/cards.cf45be8716cc07df61a2323b98906da6.svg",
     "index.html": "/test/index.html",
-    "static/media/settings.svg": "/test/static/media/settings.657d24dcc43ebb9fb4c973cd7e231bb0.svg",
-    "static/media/dashboard.svg": "/test/static/media/dashboard.e8305fd5c5160a5d56acf2c163a1afae.svg",
+    "static/media/settings.svg": "/test/static/media/settings.61770f9339601ce62b55069ec0aa4787.svg",
+    "static/media/info.svg": "/test/static/media/info.b4aac1d7d73b0f7f675652d667906c33.svg",
+    "static/media/dashboard.svg": "/test/static/media/dashboard.df09483d406276f4f64c7384ec6d9062.svg",
     "static/media/UserProfileIcon.svg": "/test/static/media/UserProfileIcon.707dd8f4bdb5b559808f45a845d692f0.svg",
-    "main.be959412.css.map": "/test/static/css/main.be959412.css.map",
-    "main.8d25f3cf.js.map": "/test/static/js/main.8d25f3cf.js.map"
+    "static/media/options.svg": "/test/static/media/options.52baa278a9e16dc925412bc5341805c1.svg",
+    "static/media/arrow.svg": "/test/static/media/arrow.55b1cf0f2409e6e0ec5784ad9bf421df.svg",
+    "main.cec156cf.css.map": "/test/static/css/main.cec156cf.css.map",
+    "main.8b0c5d70.js.map": "/test/static/js/main.8b0c5d70.js.map"
   },
   "entrypoints": [
-    "static/css/main.be959412.css",
-    "static/js/main.8d25f3cf.js"
+    "static/css/main.cec156cf.css",
+    "static/js/main.8b0c5d70.js"
   ]
 }
