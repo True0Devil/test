@@ -16,6 +16,12 @@
     url('../src/fonts/Metropolis-Medium.ttf') format('truetype');
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Metropolis', sans-serif;

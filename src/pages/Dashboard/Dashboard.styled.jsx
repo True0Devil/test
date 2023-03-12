@@ -7,4 +7,5 @@ export const Main = styled.main`
 
   padding-left: 36px;
   padding-right: 48px;
+  padding-bottom: 28px;
 `;

@@ -27,7 +27,7 @@ const Layout = () => {
 
           <MenuList>
             <MenuItem>
-              <MenuLink to="">
+              <MenuLink to="/dashboard">
                 <DashBoardLogo />
               </MenuLink>
             </MenuItem>

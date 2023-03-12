@@ -8,10 +8,9 @@ export const MainContainer = styled.div`
 `;
 
 export const Header = styled.header`
-  width: 84px;
-  height: calc(100vh - 14px);
-
   padding-top: 14px;
+  /* padding: 14px 22px 0; */
+  min-height: 100vh;
 
   background-color: #242731;
 `;
@@ -21,6 +20,8 @@ export const MainLogo = styled(Logo)`
 `;
 
 export const Navigation = styled.nav`
+  width: 84px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,4 +55,14 @@ export const MenuLink = styled(NavLink)`
   color: #7d869e;
   background-color: #191c23;
   border-radius: ${({ theme }) => theme.borderRadius.round};
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.white};
+    background-color: #8941ff;
+  }
+
+  &.active {
+    color: ${({ theme }) => theme.colors.white};
+    background-color: #8941ff;
+  }
 `;

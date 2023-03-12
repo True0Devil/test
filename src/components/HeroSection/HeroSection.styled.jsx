@@ -5,7 +5,8 @@ export const Section = styled.section`
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px 0 20px;
+  /* padding: 20px 0 20px; */
+  padding: 16px 36px;
   margin-bottom: 24px;
 `;
 

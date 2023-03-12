@@ -1,4 +1,6 @@
+import { GameStats } from 'components/GameStats/GameStats';
 import { GeneralInfo } from 'components/GeneralInfo/GeneralInfo';
+import { GeneralSales } from 'components/GeneralSales/GeneralSales';
 import { HeroSection } from 'components/HeroSection/HeroSection';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -21,6 +23,8 @@ const Dashboard = () => {
     <Main>
       <HeroSection title="Dashboard" username="Username" />
       <GeneralInfo stats={data.statistic} />
+      <GameStats />
+      <GeneralSales data={data.general_sales_time} />
     </Main>
   );
 };
