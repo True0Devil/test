@@ -44,6 +44,7 @@ export const VisuallyHiddenTitle = styled.h2`
 
 export const InfoList = styled.ul`
   display: flex;
+  justify-content: space-between;
 
   margin: 0;
   padding: 0;
@@ -62,6 +63,8 @@ export const InfoItem = styled.li`
   padding: 20px;
 
   background-color: ${({ theme }) => theme.colors.primary};
+
+  border-radius: ${({ theme }) => theme.borderRadius.secondary};
 `;
 
 export const IconContainer = styled.div`

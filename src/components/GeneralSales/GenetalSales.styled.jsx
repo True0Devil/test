@@ -8,6 +8,8 @@ export const Section = styled.section`
 
   color: ${({ theme }) => theme.colors.white};
   background-color: ${({ theme }) => theme.colors.primary};
+
+  border-radius: ${({ theme }) => theme.borderRadius.main};
 `;
 
 export const LayoutContainer = styled.div`

@@ -15,6 +15,8 @@ export const StatContainer = styled.div`
   background-image: url(${TravoltaMeme});
   background-size: contain;
 
+  border-radius: ${({ theme }) => theme.borderRadius.main};
+
   height: 344px;
   flex-grow: 1;
 
