@@ -2,7 +2,8 @@ import {
   Checked,
   LayoutContainer,
   MenuContainer,
-  OptionContainer,
+  Option,
+  OptionName,
   OptionsContainer,
   OptionsForm,
   Section,
@@ -68,8 +69,8 @@ export const GeneralSales = ({ data }) => {
           {optionsAreVisible && (
             <OptionsContainer>
               <OptionsForm action="">
-                <OptionContainer htmlFor="source">
-                  <span>Source</span>
+                <Option htmlFor="source">
+                  <OptionName>Source</OptionName>
                   <VisuallyHiddenCheckbox
                     id="source"
                     type="checkbox"
@@ -79,10 +80,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="model">
-                  <span>Card model</span>
+                <Option htmlFor="model">
+                  <OptionName>Card model</OptionName>
                   <VisuallyHiddenCheckbox
                     id="model"
                     type="checkbox"
@@ -92,10 +93,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="number">
-                  <span>Card number</span>
+                <Option htmlFor="number">
+                  <OptionName>Card number</OptionName>
                   <VisuallyHiddenCheckbox
                     id="number"
                     type="checkbox"
@@ -105,10 +106,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="name">
-                  <span>Card name</span>
+                <Option htmlFor="name">
+                  <OptionName>Card name</OptionName>
                   <VisuallyHiddenCheckbox
                     id="name"
                     type="checkbox"
@@ -118,10 +119,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="type">
-                  <span>Type</span>
+                <Option htmlFor="type">
+                  <OptionName>Type</OptionName>
                   <VisuallyHiddenCheckbox
                     id="type"
                     type="checkbox"
@@ -131,10 +132,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="limited">
-                  <span>Limited</span>
+                <Option htmlFor="limited">
+                  <OptionName>Limited</OptionName>
                   <VisuallyHiddenCheckbox
                     id="limited"
                     type="checkbox"
@@ -144,10 +145,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="operations">
-                  <span>№ Operations</span>
+                <Option htmlFor="operations">
+                  <OptionName>№ Operations</OptionName>
                   <VisuallyHiddenCheckbox
                     id="operations"
                     type="checkbox"
@@ -157,10 +158,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="date">
-                  <span>Date of lost operations</span>
+                <Option htmlFor="date">
+                  <OptionName>Date of lost operations</OptionName>
                   <VisuallyHiddenCheckbox
                     id="date"
                     type="checkbox"
@@ -170,10 +171,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="rating">
-                  <span>Rating</span>
+                <Option htmlFor="rating">
+                  <OptionName>Rating</OptionName>
                   <VisuallyHiddenCheckbox
                     id="rating"
                     type="checkbox"
@@ -183,10 +184,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="status">
-                  <span>Status</span>
+                <Option htmlFor="status">
+                  <OptionName>Status</OptionName>
                   <VisuallyHiddenCheckbox
                     id="status"
                     type="checkbox"
@@ -196,10 +197,10 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
 
-                <OptionContainer htmlFor="price">
-                  <span>Price</span>
+                <Option htmlFor="price">
+                  <OptionName>Price</OptionName>
                   <VisuallyHiddenCheckbox
                     id="price"
                     type="checkbox"
@@ -209,7 +210,7 @@ export const GeneralSales = ({ data }) => {
                   />
                   <Checked />
                   <Unchecked />
-                </OptionContainer>
+                </Option>
               </OptionsForm>
             </OptionsContainer>
           )}

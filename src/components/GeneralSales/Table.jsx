@@ -1,8 +1,15 @@
 import {
+  CardImage,
+  CardName,
+  CardNumber,
   CenteredTableData,
   CenteredTableHeader,
+  ModelContainer,
+  ModelName,
   Table,
+  TableBody,
   TableData,
+  TableHead,
   TableHeader,
   TableRow,
 } from './Table.styled';
@@ -14,7 +21,7 @@ export const GeneralSalesTable = ({ data, isVisible }) => {
   const newArr = Array(5).fill(...data);
   return (
     <Table>
-      <thead>
+      <TableHead>
         <TableRow>
           {isVisible.model && <TableHeader>Card model</TableHeader>}
           {isVisible.name && <TableHeader>Card name</TableHeader>}
@@ -31,33 +38,27 @@ export const GeneralSalesTable = ({ data, isVisible }) => {
           {isVisible.price && <TableHeader>Price</TableHeader>}
           <TableHeader>Options</TableHeader>
         </TableRow>
-      </thead>
+      </TableHead>
 
-      <tbody>
+      <TableBody>
         {newArr.map((product, i) => (
           <TableRow key={i}>
             {isVisible.model && (
               <TableData>
-                <div
-                  style={{
-                    maxWidth: '150px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '16px',
-                  }}
-                >
-                  <img
+                <ModelContainer>
+                  <CardImage
                     src={product.model.image ?? cardImg}
-                    alt=""
-                    style={{ display: 'block' }}
+                    alt="product image"
                   />
-                  <span>{product.model.name}</span>
-                </div>
+                  <ModelName>{product.model.name}</ModelName>
+                </ModelContainer>
               </TableData>
             )}
             <TableData>
-              {isVisible.name && <div>{product.card_name}</div>}
-              {isVisible.number && <div>Card {product.card_number}</div>}
+              {isVisible.name && <CardName>{product.card_name}</CardName>}
+              {isVisible.number && (
+                <CardNumber>Card {product.card_number}</CardNumber>
+              )}
             </TableData>
             {isVisible.type && (
               <CenteredTableData>{product.type}</CenteredTableData>
@@ -77,7 +78,7 @@ export const GeneralSalesTable = ({ data, isVisible }) => {
             </TableData>
           </TableRow>
         ))}
-      </tbody>
+      </TableBody>
     </Table>
   );
 };

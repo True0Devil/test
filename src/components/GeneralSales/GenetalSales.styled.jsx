@@ -99,15 +99,16 @@ export const OptionsForm = styled.form`
     background-color: #a9a6ae;
   }
 `;
-export const OptionContainer = styled.label`
+export const Option = styled.label`
   position: relative;
-  /* display: flex;
-  justify-content: space-between; */
 
   display: block;
 
-  padding: 6px 16px 6px 24px;
+  padding: 10px 16px 10px 24px;
+`;
 
+export const OptionName = styled.span`
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.43;
 `;

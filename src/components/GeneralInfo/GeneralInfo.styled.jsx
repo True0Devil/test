@@ -24,6 +24,10 @@ import styled from 'styled-components';
 //   }
 // }
 
+export const InfoSection = styled.section`
+  //
+`;
+
 export const VisuallyHiddenTitle = styled.h2`
   position: absolute;
   width: 1px;
@@ -93,6 +97,10 @@ export const IconContainer = styled.div`
   & > svg {
     display: block;
   }
+`;
+
+export const StatContainer = styled.div`
+  //
 `;
 
 export const StatInfo = styled.p`

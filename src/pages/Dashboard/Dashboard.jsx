@@ -9,7 +9,6 @@ import { Main } from './Dashboard.styled';
 
 const Dashboard = () => {
   const [data, setData] = useState();
-  console.log(data);
 
   useEffect(() => {
     fetchData().then(setData);

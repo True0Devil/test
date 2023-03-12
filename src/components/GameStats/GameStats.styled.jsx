@@ -15,7 +15,6 @@ export const StatContainer = styled.div`
   background-image: url(${TravoltaMeme});
   background-size: contain;
 
-  /* flex-basis: 100%; */
   height: 344px;
   flex-grow: 1;
 

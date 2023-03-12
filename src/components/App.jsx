@@ -1,7 +1,8 @@
-import Dashboard from 'pages/Dashboard/Dashboard';
+import { lazy } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './Layout/Layout';
-// import { UserEnterForm } from './UserEnterForm/UserEnterForm';
+
+const Dashboard = lazy(() => import('pages/Dashboard/Dashboard'));
 
 export const App = () => {
   return (

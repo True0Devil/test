@@ -1,7 +1,9 @@
 import {
+  InfoSection,
   IconContainer,
   InfoItem,
   InfoList,
+  StatContainer,
   StatTitle,
   StatInfo,
   VisuallyHiddenTitle,
@@ -15,7 +17,7 @@ import { ReactComponent as GamesIcon } from 'icons/games.svg';
 
 export const GeneralInfo = ({ stats }) => {
   return (
-    <section>
+    <InfoSection>
       <VisuallyHiddenTitle>General Info</VisuallyHiddenTitle>
 
       <InfoList>
@@ -23,52 +25,52 @@ export const GeneralInfo = ({ stats }) => {
           <IconContainer>
             <ProfileIcon />
           </IconContainer>
-          <div>
+          <StatContainer>
             <StatInfo>{stats.iam_users}</StatInfo>
             <StatTitle>IAM Users</StatTitle>
-          </div>
+          </StatContainer>
         </InfoItem>
 
         <InfoItem>
           <IconContainer>
             <SettingsIcon />
           </IconContainer>
-          <div>
+          <StatContainer>
             <StatInfo>{stats.iam_roles}</StatInfo>
             <StatTitle>IAM Roles</StatTitle>
-          </div>
+          </StatContainer>
         </InfoItem>
 
         <InfoItem>
           <IconContainer>
             <KeyholeIcon />
           </IconContainer>
-          <div>
+          <StatContainer>
             <StatInfo>{stats.iam_policies}</StatInfo>
             <StatTitle>IAM Policies</StatTitle>
-          </div>
+          </StatContainer>
         </InfoItem>
 
         <InfoItem>
           <IconContainer>
             <ShareIcon />
           </IconContainer>
-          <div>
+          <StatContainer>
             <StatInfo>{stats.compute_resources}</StatInfo>
             <StatTitle>Compute Resources</StatTitle>
-          </div>
+          </StatContainer>
         </InfoItem>
 
         <InfoItem>
           <IconContainer>
             <GamesIcon />
           </IconContainer>
-          <div>
+          <StatContainer>
             <StatInfo>{stats.games}</StatInfo>
             <StatTitle>Games</StatTitle>
-          </div>
+          </StatContainer>
         </InfoItem>
       </InfoList>
-    </section>
+    </InfoSection>
   );
 };
