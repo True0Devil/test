@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/test/static/css/main.cec156cf.css",
-    "main.js": "/test/static/js/main.8b0c5d70.js",
+    "main.js": "/test/static/js/main.7eb9e668.js",
+    "static/js/439.285a67a4.chunk.js": "/test/static/js/439.285a67a4.chunk.js",
+    "static/js/79.b975ca7f.chunk.js": "/test/static/js/79.b975ca7f.chunk.js",
     "static/media/travoltameme.gif": "/test/static/media/travoltameme.59b46f4510af6cc07976.gif",
     "static/media/Metropolis-Regular.ttf": "/test/static/media/Metropolis-Regular.3e96c38bc01555998420.ttf",
     "static/media/Metropolis-Medium.ttf": "/test/static/media/Metropolis-Medium.2fa651ef7a64b5ebc31b.ttf",
@@ -24,10 +26,12 @@
     "static/media/options.svg": "/test/static/media/options.52baa278a9e16dc925412bc5341805c1.svg",
     "static/media/arrow.svg": "/test/static/media/arrow.55b1cf0f2409e6e0ec5784ad9bf421df.svg",
     "main.cec156cf.css.map": "/test/static/css/main.cec156cf.css.map",
-    "main.8b0c5d70.js.map": "/test/static/js/main.8b0c5d70.js.map"
+    "main.7eb9e668.js.map": "/test/static/js/main.7eb9e668.js.map",
+    "439.285a67a4.chunk.js.map": "/test/static/js/439.285a67a4.chunk.js.map",
+    "79.b975ca7f.chunk.js.map": "/test/static/js/79.b975ca7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cec156cf.css",
-    "static/js/main.8b0c5d70.js"
+    "static/js/main.7eb9e668.js"
   ]
 }
