@@ -24,7 +24,9 @@ export const GeneralSalesTable = ({ data, isVisible }) => {
       <TableHead>
         <TableRow>
           {isVisible.model && <TableHeader>Card model</TableHeader>}
-          {isVisible.name && <TableHeader>Card name</TableHeader>}
+          {(isVisible.name || isVisible.number) && (
+            <TableHeader>Card name</TableHeader>
+          )}
           {isVisible.type && <CenteredTableHeader>Type</CenteredTableHeader>}
           {isVisible.limited && (
             <CenteredTableHeader>Limited</CenteredTableHeader>
