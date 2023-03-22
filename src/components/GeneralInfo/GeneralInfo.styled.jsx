@@ -1,29 +1,5 @@
 import styled from 'styled-components';
 
-// function defineBgColor(type) {
-//   const colors = ['#42CC58', '#4998EE', '#F25D5D', '#F4A732', '#9B53F8'];
-
-//   switch (type) {
-//     case 'green':
-//       return colors[0];
-
-//     case 'blue':
-//       return colors[1];
-
-//     case 'red':
-//       return colors[2];
-
-//     case 'yellow':
-//       return colors[3];
-
-//     case 'purple':
-//       return colors[4];
-
-//     default:
-//       break;
-//   }
-// }
-
 export const InfoSection = styled.section`
   //
 `;
@@ -72,30 +48,8 @@ export const IconContainer = styled.div`
   border-radius: ${({ theme }) => theme.borderRadius.secondary};
   margin-right: 22px;
 
-  ${InfoItem}:nth-child(1) & {
-    color: #3cdc86;
-    background-color: rgba(66, 204, 88, 0.15);
-  }
-
-  ${InfoItem}:nth-child(2) & {
-    color: #4998ee;
-    background-color: rgba(73, 152, 238, 0.15);
-  }
-
-  ${InfoItem}:nth-child(3) & {
-    color: #f25d5d;
-    background-color: rgba(242, 93, 93, 0.15);
-  }
-
-  ${InfoItem}:nth-child(4) & {
-    color: #f4a732;
-    background-color: rgba(244, 167, 50, 0.15);
-  }
-
-  ${InfoItem}:nth-child(5) & {
-    color: #9b53f8;
-    background-color: rgba(155, 83, 248, 0.15);
-  }
+  color: ${props => props.color};
+  background-color: ${props => props.bgColor};
 
   & > svg {
     display: block;

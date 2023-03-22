@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Main = styled.main`
+export const MainContent = styled.div`
   background-color: ${({ theme }) => theme.colors.secondary};
 
   width: 100vw;

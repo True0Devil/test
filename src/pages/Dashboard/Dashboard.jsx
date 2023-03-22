@@ -5,7 +5,7 @@ import { HeroSection } from 'components/HeroSection/HeroSection';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { fetchData } from 'services/service';
-import { Main } from './Dashboard.styled';
+import { MainContent } from './Dashboard.styled';
 
 const Dashboard = () => {
   const [data, setData] = useState();
@@ -19,12 +19,14 @@ const Dashboard = () => {
   }
 
   return (
-    <Main>
+    <MainContent>
       <HeroSection title="Dashboard" username="Username" />
-      <GeneralInfo stats={data.statistic} />
-      <GameStats />
-      <GeneralSales data={data.general_sales_time} />
-    </Main>
+      <main>
+        <GeneralInfo stats={data.statistic} />
+        <GameStats />
+        <GeneralSales data={data.general_sales_time} />
+      </main>
+    </MainContent>
   );
 };
 

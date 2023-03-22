@@ -1,9 +1,15 @@
 import { ReactComponent as ProfileIcon } from 'icons/UserProfileIcon.svg';
-import { PageTitle, ProfileContainer, ProfileMenuButton, Section, UserNameText } from './HeroSection.styled';
+import {
+  PageTitle,
+  ProfileContainer,
+  ProfileMenuButton,
+  Header,
+  UserNameText,
+} from './HeroSection.styled';
 
 export const HeroSection = ({ title, username }) => {
   return (
-    <Section>
+    <Header>
       <PageTitle>{title}</PageTitle>
       <ProfileContainer>
         <ProfileMenuButton type="button">
@@ -11,7 +17,6 @@ export const HeroSection = ({ title, username }) => {
         </ProfileMenuButton>
         <UserNameText>{username}</UserNameText>
       </ProfileContainer>
-    </Section>
+    </Header>
   );
 };
-
