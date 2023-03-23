@@ -1,4 +1,3 @@
-import { HeroSection } from 'components/HeroSection/HeroSection';
 import { Sidebar } from 'components/Sidebar/Sidebar';
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
